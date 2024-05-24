@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #2b5c5d;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #000000;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+#projects .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section#about {
+    text-align: center;
+}
+
+section#about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .social-icons {
+    margin-left: 90%;
+}
+
+header .social-icons a {
+    margin-left: 10px;
+}
+
+header .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.container1 {
+    text-align: center; /* Center the content horizontally */
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+}
+
+.social-links div:first-child {
+    text-align: left;
+    margin-left: 30%; /* Align links to the left */
+}
+
+.social-links div:last-child {
+    text-align: right;
+    margin-right: 30%; /* Align button to the right */
+}
+
+.social-links a {
+    display: block; /* Ensure each link occupies its own line */
+}
+#b1 a {
+    color: #fff; /* Change the color to white */
+}
+
+#b1 {
+    padding: 15px 30px;
+    background-color: #FF0000; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#b1:hover {
+    background-color: #CC0000; /* Darker shade of red on hover */
+}
+
+
+
+
+
